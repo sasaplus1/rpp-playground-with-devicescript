@@ -4,6 +4,10 @@
   },
   "private": true,
   "scripts": {
-    "postinstall": "devicescript --quiet build # install devicescript modules"
+    "build": "devicescript build",
+    "flash": "devicescript flash --board pico",
+    "postinstall": "devicescript --quiet build # install devicescript modules",
+    "run": "devicescript run ./src/main.ts",
+    "watch": "devicescript devtools --logging --serial --trace ./trace.log ./src/main.ts"
   }
 }
