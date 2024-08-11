@@ -1,3 +1,6 @@
 {
+  "devDependencies": {
+    "@devicescript/cli": "^2.16.4"
+  },
   "private": true
 }
