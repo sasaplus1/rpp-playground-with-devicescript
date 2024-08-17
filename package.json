@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "devicescript build",
+    "clean": "devicescript flash --board pico --clean",
     "flash": "devicescript flash --board pico",
     "postinstall": "devicescript --quiet build # install devicescript modules",
     "run": "devicescript run ./src/main.ts",
