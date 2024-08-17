@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "build": "devicescript build",
-    "clean": "devicescript flash --board pico --clean",
-    "flash": "devicescript flash --board pico",
+    "clean": "devicescript flash rp2040 --board pico --clean",
+    "flash": "devicescript flash rp2040 --board pico",
     "postinstall": "devicescript --quiet build # install devicescript modules",
     "run": "devicescript run ./src/main.ts",
     "watch": "devicescript devtools --logging --serial --trace ./trace.log ./src/main.ts"
